@@ -4,6 +4,7 @@
 #include <stdexcept>
 #include <cerrno>
 #include <poll.h>
+#include <csignal>
 
 // defined in main.cpp
 extern volatile sig_atomic_t g_stop;
